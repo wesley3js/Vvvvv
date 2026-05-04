@@ -1,0 +1,4 @@
+/* Netlify Redirects for SPAs */
+/* Redirect all routes to index.html for React Router compatibility */
+/* (Even though this is an anchor-based landing page, it's a best practice) */
+/* /index.html 200 */
