@@ -11,13 +11,13 @@
 
 @layer base {
   body {
-    @apply bg-[#fdfdfd] text-[#09090b] selection:bg-gold/30 overflow-x-hidden;
+    @apply bg-[#050505] text-white selection:bg-gold/30 overflow-x-hidden;
   }
 }
 
 @layer components {
   .glass {
-    @apply bg-white/40 backdrop-blur-md border border-white/60;
+    @apply bg-zinc-950/40 backdrop-blur-xl border border-white/10;
   }
   
   .vertical-text {
